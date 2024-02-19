@@ -86,9 +86,9 @@ function howManyDigitNum(num){
 howManyDigitNum(num2)
 // Vazifa 9
 function checkReversed(num){
-    var checkWord = num.toString().toLowerCase().split("").join()
-    var checkReversedWord = num.toString().toLowerCase().split("").reverse().join()
-    checkWord === checkReversedWord ? console.log("True") : console.log("False")
+    var checkNum = num.toString().toLowerCase().split("").join()
+    var checkReversedNum = num.toString().toLowerCase().split("").reverse().join()
+    checkNum === checkReversedNum ? console.log("True") : console.log("False")
 }
 checkReversed(121)
 // Vazifa 10
